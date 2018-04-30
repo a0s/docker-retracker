@@ -1,0 +1,3 @@
+FROM golang
+RUN go get github.com/vvampirius/retracker/...
+ENTRYPOINT ["/go/bin/retracker"]
